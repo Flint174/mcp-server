@@ -108,7 +108,7 @@ mcpServers:
   - name: New MCP server
     command: node
     args:
-      - "C:/Users/User/Documents/workspace/mcp-server/dist/server.js"
+      - "/path/to/dist/server.js"
     env:
       {
         "DB_HOST": "localhost",
